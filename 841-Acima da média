@@ -1,0 +1,5 @@
+nums = [float(input()) for i in range(3)]
+media = sum(nums)/ len(nums)
+acima = []
+[acima.append(i) if i > media else 0  for i in nums]
+print(len(acima))
