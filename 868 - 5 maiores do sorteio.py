@@ -12,3 +12,10 @@ lista.sort() # ordena a lista
 
 for i in range(-5,0):
     print(lista[i])
+
+#Outra forma de fazer 
+#entrada = input().split(" ")
+#nums = [input() for j in range(int(entrada[0]))]
+#lista = [int(i) if entrada[1] == i[-1] else -1 for i in nums]
+#lista.sort()
+#[print(lista[i]) for i in range(-5,0)]
